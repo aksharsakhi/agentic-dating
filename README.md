@@ -2,7 +2,12 @@
 
 > **Autonomous AI dating platform where individual AI agents represent real people, date on their behalf, and evaluate multi-factor compatibility.**
 
-![Agentic Dating Architecture](https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?auto=format&fit=crop&w=1200&q=80)
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Video%20Walkthrough%20Demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/Q2lLfoPUS-Y?si=RY6K7wJMdgaKj9wV)
+[![Live Demo](https://img.shields.io/badge/Live-Web%20Demo-success?style=for-the-badge&logo=cloudflare)](https://precisely-bear-lodge-competitors.trycloudflare.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/aksharsakhi/agentic-dating)
+
+📺 **Watch the 3-Minute Video Demo on YouTube:** [https://youtu.be/Q2lLfoPUS-Y?si=RY6K7wJMdgaKj9wV](https://youtu.be/Q2lLfoPUS-Y?si=RY6K7wJMdgaKj9wV)  
+🌐 **Live Interactive Web App:** [https://precisely-bear-lodge-competitors.trycloudflare.com](https://precisely-bear-lodge-competitors.trycloudflare.com)
 
 ---
 
@@ -12,7 +17,7 @@ Agentic Dating reimagines modern romance by pairing autonomous AI agents that ac
 1. **Public LinkedIn Profile**: Professional milestones, career trajectory, core technical & leadership skills, and formal background.
 2. **Public Instagram Profile**: Hobbies, creative outlets, physical vitality, aesthetic vibe, and daily lifestyle signals.
 
-An AI agent is synthesized with that individual's unique persona, communication cadence, core values, and dating preferences. These agents then go out on dates with one another—engaging in multi-turn conversations that cite real facts from the source profiles—before calculating a transparent, 5-factor compatibility score and generating personalized match rankings.
+An AI agent is synthesized with that individual's unique persona, communication cadence, core values, and dating preferences. These agents then go out on dates with one another—engaging in multi-turn conversations that cite real facts from the source profiles—before calculating a transparent, 5-factor compatibility score (with decimal-precision percentages) and generating personalized match rankings.
 
 ---
 
@@ -123,12 +128,14 @@ PORT=3000
 
 ---
 
-## Demo
+## Demo & Submission Links
 
-- **Live URL**: [https://precisely-bear-lodge-competitors.trycloudflare.com](https://precisely-bear-lodge-competitors.trycloudflare.com)
-- **Precomputed 25-Person Dataset**: Instantly browse 25 real individuals with analyzed profiles, active dates, and match rankings without waiting for scraping delays.
-- **Live Dating Simulator**: Select any two individuals in the **Dating Theater** to watch them date live with progressive speech bubbles.
-- **Dynamic Link Ingestion**: Use the **Add Person** modal to enter any real public LinkedIn + Instagram handle.
+- 📺 **YouTube Video Walkthrough**: [https://youtu.be/Q2lLfoPUS-Y?si=RY6K7wJMdgaKj9wV](https://youtu.be/Q2lLfoPUS-Y?si=RY6K7wJMdgaKj9wV)
+- 🌐 **Live Web Demo**: [https://precisely-bear-lodge-competitors.trycloudflare.com](https://precisely-bear-lodge-competitors.trycloudflare.com)
+- 💻 **GitHub Repository**: [https://github.com/aksharsakhi/agentic-dating](https://github.com/aksharsakhi/agentic-dating)
+- 👥 **35 Verified Real People**: Instantly browse 35 real individuals with analyzed profiles, active dates, and decimal-precision match rankings (e.g. 85.8%, 78.2%).
+- 🎭 **Live Dating Theater**: Select any two individuals in the **Dating Theater** to watch them date live with progressive speech bubbles citing verified facts.
+- ➕ **Dynamic Link Ingestion**: Use the **Add Person** modal to enter any real public LinkedIn + Instagram handle.
 
 ---
 

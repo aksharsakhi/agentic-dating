@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Play, Sparkles, Plus, ArrowRight, ShieldCheck, Cpu } from 'lucide-react';
+import { Play, Sparkles, Plus, ArrowRight, ShieldCheck, Cpu, Video } from 'lucide-react';
 
 interface HeroSectionProps {
   onRunDemo: () => void;
@@ -68,6 +68,16 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <Plus className="w-4 h-4 text-pink-400" />
             <span>Add Person Links</span>
           </button>
+
+          <a
+            href="https://youtu.be/Q2lLfoPUS-Y?si=RY6K7wJMdgaKj9wV"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-5 py-3.5 rounded-xl font-semibold text-sm bg-red-500/10 hover:bg-red-500/20 text-red-200 border border-red-500/30 active:scale-95 transition-all group"
+          >
+            <Video className="w-4 h-4 text-red-400 group-hover:scale-110 transition-transform" />
+            <span>Watch Demo Video</span>
+          </a>
         </div>
 
         {/* Architectural Flow Diagram Banner */}

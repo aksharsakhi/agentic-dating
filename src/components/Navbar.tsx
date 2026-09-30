@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Sparkles, Heart, Users, Compass, PlusCircle } from 'lucide-react';
+import { Sparkles, Heart, Users, Compass, PlusCircle, Video } from 'lucide-react';
 
 interface NavbarProps {
   activeTab: 'profiles' | 'dating' | 'rankings';
@@ -85,7 +85,18 @@ export const Navbar: React.FC<NavbarProps> = ({
         </nav>
 
         {/* Action Button */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <a
+            href="https://youtu.be/Q2lLfoPUS-Y?si=RY6K7wJMdgaKj9wV"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs sm:text-sm font-medium text-red-300 bg-red-500/10 hover:bg-red-500/20 border border-red-500/25 active:scale-95 transition-all"
+            title="Watch 3-minute video walkthrough"
+          >
+            <Video className="w-4 h-4 text-red-400" />
+            <span className="hidden md:inline">Video Demo</span>
+          </a>
+
           <button
             onClick={onOpenAddModal}
             className="flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-gradient-to-r from-pink-500 to-rose-600 hover:from-pink-600 hover:to-rose-700 text-white shadow-lg shadow-pink-500/25 active:scale-95 transition-all"
