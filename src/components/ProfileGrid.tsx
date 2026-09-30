@@ -58,7 +58,7 @@ export const ProfileGrid: React.FC<ProfileGridProps> = ({
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
         <div>
           <div className="flex items-center gap-2">
-            <h2 className="text-xl sm:text-2xl font-bold text-white">25 Verified Individuals</h2>
+            <h2 className="text-xl sm:text-2xl font-bold text-white">{people.length} Verified Individuals</h2>
             <span className="text-xs px-2.5 py-0.5 rounded-full bg-pink-500/10 text-pink-400 border border-pink-500/20 font-semibold">
               Real LinkedIn + Public Instagram
             </span>
@@ -88,7 +88,7 @@ export const ProfileGrid: React.FC<ProfileGridProps> = ({
                 filterSource === 'all' ? 'bg-white/10 text-white' : 'text-gray-400 hover:text-white'
               }`}
             >
-              All (25)
+              All ({people.length})
             </button>
             <button
               onClick={() => setFilterSource('tech')}

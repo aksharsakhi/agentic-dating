@@ -169,6 +169,12 @@ export const RankingsView: React.FC<RankingsViewProps> = ({
                   </div>
                   <p className="text-xs text-gray-400 mt-0.5">{item.partner.profile_analysis.identity.profession}</p>
 
+                  {item.match_rationale && (
+                    <p className="text-[11px] text-pink-300/80 italic mt-1 line-clamp-1">
+                      "{item.match_rationale}"
+                    </p>
+                  )}
+
                   <div className="flex items-center gap-2 mt-1.5">
                     <span className="text-[10px] text-gray-500">Shared values:</span>
                     {item.top_shared_values.map((val, vi) => (
@@ -184,14 +190,16 @@ export const RankingsView: React.FC<RankingsViewProps> = ({
               <div className="w-full md:w-auto flex items-center justify-between md:justify-end gap-6 pt-2 md:pt-0 border-t md:border-t-0 border-white/5">
                 {/* Score bar */}
                 <div className="text-right">
-                  <div className="flex items-baseline justify-end gap-1">
-                    <span className="text-2xl font-black text-white">{item.score}</span>
+                  <div className="flex items-baseline justify-end gap-0.5">
+                    <span className="text-2xl sm:text-3xl font-black tracking-tight text-white">
+                      {item.score.toFixed(1)}
+                    </span>
                     <span className="text-xs font-bold text-pink-400">%</span>
                   </div>
-                  <div className="w-24 h-1.5 rounded-full bg-zinc-800 overflow-hidden mt-1">
+                  <div className="w-28 h-2 rounded-full bg-zinc-800 overflow-hidden mt-1 shadow-inner">
                     <div
-                      className="h-full bg-gradient-to-r from-pink-500 to-purple-500 rounded-full"
-                      style={{ width: `${item.score}%` }}
+                      className="h-full bg-gradient-to-r from-rose-500 via-pink-500 to-purple-500 rounded-full"
+                      style={{ width: `${Math.min(100, item.score)}%` }}
                     />
                   </div>
                 </div>
@@ -199,7 +207,7 @@ export const RankingsView: React.FC<RankingsViewProps> = ({
                 {/* Launch Dating Session CTA */}
                 <button
                   onClick={() => onOpenDate(targetPerson, item.partner)}
-                  className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-semibold bg-white/10 hover:bg-pink-500 hover:text-white text-gray-200 border border-white/10 active:scale-95 transition-all group"
+                  className="flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl text-xs font-semibold bg-white/10 hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-600 hover:text-white text-gray-200 border border-white/10 active:scale-95 transition-all shadow-md group"
                 >
                   <Bot className="w-3.5 h-3.5 text-pink-400 group-hover:text-white" />
                   <span>Inspect Date & Transcript</span>

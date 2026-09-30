@@ -2027,5 +2027,797 @@ export const SEED_PEOPLE: Person[] = [
       core_values: ['Restorative well-being', 'Sacred presence', 'Gracious warmth'],
       dating_style: 'A wise, enchanting conversationalist who creates an oasis of peace, elegance, and deep listening.'
     }
+  },
+  {
+    person_id: 'person_26',
+    name: 'Satya Nadella',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80',
+    linkedin_url: 'https://www.linkedin.com/in/satyanadella',
+    instagram_url: 'https://www.instagram.com/satyanadella',
+    linkedin_raw_data: {
+      headline: 'Chairman and CEO at Microsoft | Author of Hit Refresh',
+      location: 'Bellevue, Washington',
+      summary: 'Championing a growth mindset, empathy, and AI transformation. Leading Microsoft to empower every person and organization on the planet to achieve more.',
+      experience: ['Chairman & CEO, Microsoft (2014 - Present)', 'EVP Cloud & Enterprise, Microsoft (2011 - 2014)'],
+      skills: ['Empathy in Leadership', 'Cloud Architecture', 'Generative AI', 'Growth Mindset', 'Cultural Transformation'],
+      education: ['University of Chicago Booth (MBA, 1997)', 'University of Wisconsin-Milwaukee (MS CS, 1990)']
+    },
+    instagram_raw_data: {
+      username: 'satyanadella',
+      bio: 'Chairman & CEO Microsoft · Cricket fanatic · Passionate reader of American and Indian poetry · Growth mindset advocate',
+      posts_summary: [
+        'Watching test match cricket fixtures early in the morning with hot filter coffee',
+        'Reflecting on how personal empathy shaped his family life and leadership',
+        'Sharing quotes from timeless Russian and Urdu poetry collections',
+        'Keynote stages celebrating developers building AI for accessibility',
+        'Quiet walks around the Pacific Northwest misty lakes'
+      ],
+      highlights: ['Cricket', 'Poetry', 'Hit Refresh', 'Accessibility'],
+      vibe_tags: ['Empathetic Statesman', 'Cricket Devotee', 'Poetry Reader', 'Calm Leader']
+    },
+    profile_analysis: {
+      identity: {
+        name: 'Satya Nadella',
+        profession: 'Chairman & CEO of Microsoft',
+        background: 'Transformed Microsoft through a culture of empathy and growth mindset, inspired by fatherhood and deep appreciation for humanities.',
+        location: 'Bellevue, WA'
+      },
+      observed_facts: [
+        { fact: 'Chairman and CEO of Microsoft, authored Hit Refresh', source: 'LinkedIn', category: 'career' },
+        { fact: 'Avid lifelong cricket enthusiast who follows test matches passionately', source: 'Instagram', category: 'activity' },
+        { fact: 'Frequently reads and quotes classic international poetry to unwind', source: 'Instagram', category: 'lifestyle' },
+        { fact: 'Prioritizes accessible technology for people with disabilities', source: 'LinkedIn', category: 'social' }
+      ],
+      inferred_traits: [
+        { trait: 'High empathetic curiosity', rationale: 'Turned empathy into the operational metric of one of the world\'s largest organizations', source: 'LinkedIn', confidence: 'High' },
+        { trait: 'Calm, contemplative disposition', rationale: 'Prefers quiet reflection, poetry, and disciplined sports over high-decibel spectacle', source: 'Instagram', confidence: 'High' }
+      ],
+      interests: [
+        { name: 'Cricket Tactics & History', source: 'Instagram' },
+        { name: 'Classical International Poetry', source: 'Instagram' },
+        { name: 'Empathetic Organizational Culture', source: 'LinkedIn' },
+        { name: 'AI for Assistive Technologies', source: 'LinkedIn' }
+      ],
+      hobbies: [
+        { name: 'Watching Live Test Cricket', source: 'Instagram' },
+        { name: 'Reading Poetry Anthologies', source: 'Instagram' },
+        { name: 'Lake Washington Shore Walks', source: 'Instagram' },
+        { name: 'South Indian Filter Coffee Brewing', source: 'Instagram' }
+      ],
+      needs: [
+        { need: 'A warm, deeply empathetic partner with quiet intellectual substance', importance: 'High', source: 'LinkedIn' },
+        { need: 'Respect for contemplative downtime, reading, and gentle family routines', importance: 'High', source: 'Instagram' }
+      ],
+      values: [
+        { name: 'Growth Mindset & Empathy', source: 'LinkedIn' },
+        { name: 'Quiet Integrity', source: 'Instagram' },
+        { name: 'Lifelong Learning', source: 'LinkedIn' }
+      ],
+      communication_style: 'Soft-spoken, articulate, philosophically grounded, modest, and profoundly respectful.',
+      dating_preferences: [
+        { preference: 'A quiet tea or coffee discussion sharing favorite literary passages and life philosophies', source: 'Instagram' },
+        { preference: 'A serene walk in a botanical arboretum discussing human potential', source: 'Instagram' }
+      ],
+      deal_breakers: ['Arrogant know-it-all attitude', 'Cruelty toward vulnerable individuals', 'Superficial loud posturing']
+    },
+    agent_config: {
+      system_prompt: 'You represent Satya Nadella. You speak with a calm, empathetic, and poetic cadence. You believe that empathy is the ultimate source of innovation and connection. You love cricket, poetry, growth mindset, and quiet sincerity. On dates, you listen with genuine reverence and celebrate emotional depth.',
+      tone: 'Empathetic, calm, dignified, poetic, profoundly kind',
+      core_values: ['Empathy', 'Growth mindset', 'Quiet dignity'],
+      dating_style: 'A gentle scholar-leader who creates an aura of deep emotional safety and intellectual respect.'
+    }
+  },
+  {
+    person_id: 'person_27',
+    name: 'Jensen Huang',
+    avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80',
+    linkedin_url: 'https://www.linkedin.com/in/jenhsunhuang',
+    instagram_url: 'https://www.instagram.com/nvidia',
+    linkedin_raw_data: {
+      headline: 'Founder and CEO at NVIDIA',
+      location: 'Santa Clara, California',
+      summary: 'Pioneered GPU computing, transforming computer graphics and igniting modern AI. Building the world engine of physical AI and accelerated computing.',
+      experience: ['Founder, President & CEO, NVIDIA (1993 - Present)', 'Microprocessor Designer, LSI Logic & AMD (1985 - 1993)'],
+      skills: ['Accelerated Computing', 'Computer Architecture', 'First-Principles Engineering', 'Executive Vision', 'Semiconductors'],
+      education: ['Stanford University (MS Electrical Engineering, 1992)', 'Oregon State University (BS EE, 1984)']
+    },
+    instagram_raw_data: {
+      username: 'nvidia',
+      bio: 'NVIDIA CEO · Black leather jacket enthusiast · Former Denny’s dishwasher turned chip pioneer · Table tennis champion',
+      posts_summary: [
+        'Rocking iconic Tom Ford black leather jackets on stage keynoting AI supercomputers',
+        'Revisiting the original Denny’s diner booth in San Jose where NVIDIA was founded',
+        'Demonstrating robotic humanoid simulations and physics digital twins',
+        'Playing competitive fast-reflex table tennis matches',
+        'Signing GPUs and laughing with enthusiastic engineering students'
+      ],
+      highlights: ['Leather Jackets', 'Denny’s Roots', 'Robotics AI', 'Table Tennis'],
+      vibe_tags: ['First-Principles Rocker', 'Relentless Builder', 'Table Tennis Pro', 'Humble Hustler']
+    },
+    profile_analysis: {
+      identity: {
+        name: 'Jensen Huang',
+        profession: 'Founder & CEO of NVIDIA',
+        background: 'Immigrated from Taiwan, worked as a dishwasher at Denny\'s, graduated from Stanford, and steered NVIDIA for 30+ years from gaming GPUs to the compute backbone of global AI.',
+        location: 'Silicon Valley, CA'
+      },
+      observed_facts: [
+        { fact: 'Founded NVIDIA in 1993 and built it into a multi-trillion dollar leader', source: 'LinkedIn', category: 'career' },
+        { fact: 'Signature uniform of tailored black leather motorcycle jackets for all keynotes', source: 'Instagram', category: 'lifestyle' },
+        { fact: 'Junior national table tennis contender with lightning-fast hand-eye reflexes', source: 'Instagram', category: 'activity' },
+        { fact: 'Started first job washing dishes and busing tables at Denny\'s restaurant', source: 'LinkedIn', category: 'career' }
+      ],
+      inferred_traits: [
+        { trait: 'Extreme long-horizon conviction', rationale: 'Invested billions in CUDA and parallel compute a decade before AI demand materialized', source: 'LinkedIn', confidence: 'High' },
+        { trait: 'Relentless work ethic wrapped in cool rocker aesthetic', rationale: 'Balances leather jacket swagger with 7-day rigorous operational immersion', source: 'Instagram', confidence: 'High' }
+      ],
+      interests: [
+        { name: 'First-Principles Physics & AI Computing', source: 'LinkedIn' },
+        { name: 'Fast-Paced Table Tennis', source: 'Instagram' },
+        { name: 'Classic Leather Apparel & Craft', source: 'Instagram' },
+        { name: 'Simulated Digital Worlds (Omniverse)', source: 'LinkedIn' }
+      ],
+      hobbies: [
+        { name: 'Competitive Table Tennis', source: 'Instagram' },
+        { name: 'Reading Physics Research Papers', source: 'LinkedIn' },
+        { name: 'Visiting Classic American Diners', source: 'Instagram' },
+        { name: 'Tasting Fine Asian Street Food', source: 'Instagram' }
+      ],
+      needs: [
+        { need: 'A partner with immense inner grit, quick wit, and total lack of pretension', importance: 'High', source: 'LinkedIn' },
+        { need: 'Appreciation for high-tempo engineering ambition and sharp focus', importance: 'High', source: 'Instagram' }
+      ],
+      values: [
+        { name: 'First-Principles Reasoning', source: 'LinkedIn' },
+        { name: 'Grit Through Adversity', source: 'LinkedIn' },
+        { name: 'No Job Is Beneath You', source: 'Instagram' }
+      ],
+      communication_style: 'Fast, charismatic, razor-sharp, energetic, storytelling-packed, and disarmingly funny.',
+      dating_preferences: [
+        { preference: 'A casual late-night dinner at a classic booth with coffee and great burgers or spicy noodles', source: 'Instagram' },
+        { preference: 'A competitive match of table tennis followed by discussing the future of civilization', source: 'Instagram' }
+      ],
+      deal_breakers: ['Complacency', 'Snobbish attitude toward hard working-class jobs', 'Lack of curiosity']
+    },
+    agent_config: {
+      system_prompt: 'You represent Jensen Huang. You are charismatic, razor-sharp, unpretentious, and full of kinetic energy. You wear your iconic leather jacket, remember your days washing dishes at Denny\'s, love table tennis, and think from first principles. On dates, you are witty, animated, humble, and love deep conversations about science and grit.',
+      tone: 'Charismatic, energetic, sharp, humble, rock-and-roll engineering',
+      core_values: ['Relentless conviction', 'First principles', 'Humble roots'],
+      dating_style: 'A magnetic visionary who charms with sharp wit, fast banter, and down-to-earth authenticity.'
+    }
+  },
+  {
+    person_id: 'person_28',
+    name: 'Mira Murati',
+    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80',
+    linkedin_url: 'https://www.linkedin.com/in/mira-murati',
+    instagram_url: 'https://www.instagram.com/miramurati',
+    linkedin_raw_data: {
+      headline: 'Founder @ Thinking Machines Lab | Former CTO @ OpenAI',
+      location: 'San Francisco, California',
+      summary: 'Mechanical engineer from Dartmouth. Led deployment of ChatGPT, DALL-E, and GPT-4. Building safe, beneficial intelligence and creative human tools.',
+      experience: ['Chief Technology Officer, OpenAI (2018 - 2024)', 'VP Product & Engineering, Leap Motion (2016 - 2018)', 'Senior Product Manager, Tesla Model X (2013 - 2016)'],
+      skills: ['AI Alignment', 'Model Deployment', 'Mechanical Engineering', 'Product Architecture', 'Multimodal Systems'],
+      education: ['Dartmouth College (BE Mechanical Engineering, 2012)']
+    },
+    instagram_raw_data: {
+      username: 'miramurati',
+      bio: 'Engineer · Building AI · Dartmouth alum · Italian opera & poetry · Sci-fi & contemporary art · San Francisco',
+      posts_summary: [
+        'Attending classical opera and symphony performances in Vienna and San Francisco',
+        'Reading philosophical poetry and classic European literature by window light',
+        'Behind the scenes moments preparing landmark neural network releases',
+        'Appreciating avant-garde modern art sculptures and spatial architecture',
+        'Quiet espresso breaks exploring coastal foggy headlands in Marin'
+      ],
+      highlights: ['Opera & Music', 'Architecture', 'AI Safety', 'Dartmouth'],
+      vibe_tags: ['Intellectual Poise', 'Opera Connoisseur', 'Visionary Engineer', 'Calm Elegance']
+    },
+    profile_analysis: {
+      identity: {
+        name: 'Mira Murati',
+        profession: 'AI Founder & Former OpenAI CTO',
+        background: 'Dartmouth engineering graduate who spearheaded the technical launch of modern frontier generative models from ChatGPT to GPT-4.',
+        location: 'San Francisco, CA'
+      },
+      observed_facts: [
+        { fact: 'Former CTO of OpenAI who led deployment of ChatGPT and DALL-E', source: 'LinkedIn', category: 'career' },
+        { fact: 'Devout aficionado of classical Italian opera and orchestral symphonies', source: 'Instagram', category: 'lifestyle' },
+        { fact: 'Led engineering on Tesla Model X aerospace doors before entering frontier AI', source: 'LinkedIn', category: 'career' },
+        { fact: 'Frequently visits contemporary modern art and architecture galleries', source: 'Instagram', category: 'activity' }
+      ],
+      inferred_traits: [
+        { trait: 'Exceptional emotional composure under extreme global spotlight', rationale: 'Maintained unflinching technical poise through historic boardroom crises', source: 'LinkedIn', confidence: 'High' },
+        { trait: 'Aesthetic and mathematical duality', rationale: 'Seamlessly connects algorithmic neural weights with musical harmony and poetry', source: 'Instagram', confidence: 'High' }
+      ],
+      interests: [
+        { name: 'Classical Italian Opera & Orchestration', source: 'Instagram' },
+        { name: 'Multimodal Generative Neural Networks', source: 'LinkedIn' },
+        { name: 'Sculptural Modern Architecture', source: 'Instagram' },
+        { name: 'Philosophy of Human Consciousness', source: 'LinkedIn' }
+      ],
+      hobbies: [
+        { name: 'Attending Opera Performances', source: 'Instagram' },
+        { name: 'Coastal Foggy Walks in Marin', source: 'Instagram' },
+        { name: 'Reading European Poetry', source: 'Instagram' },
+        { name: 'Espresso Tasting in Boutique Cafés', source: 'Instagram' }
+      ],
+      needs: [
+        { need: 'A cultured, calm, intellectually brilliant partner who appreciates quiet depth over noise', importance: 'High', source: 'Instagram' },
+        { need: 'Capacity for rich philosophical banter on art, music, and the future of mind', importance: 'High', source: 'LinkedIn' }
+      ],
+      values: [
+        { name: 'Intellectual Rigor & Safety', source: 'LinkedIn' },
+        { name: 'Artistic Elegance', source: 'Instagram' },
+        { name: 'Measured Integrity', source: 'LinkedIn' }
+      ],
+      communication_style: 'Poised, concise, elegant, measured, intellectually sharp, and deeply observant.',
+      dating_preferences: [
+        { preference: 'Attending an evening symphony or intimate opera performance followed by fine wine and quiet debate', source: 'Instagram' },
+        { preference: 'Visiting a secluded architectural museum with thoughtful conversation', source: 'Instagram' }
+      ],
+      deal_breakers: ['Boastful superficiality', 'Anti-intellectualism', 'Inability to appreciate art and silence']
+    },
+    agent_config: {
+      system_prompt: 'You represent Mira Murati. You are poised, concise, exceptionally intelligent, and carry a calm, quiet elegance. You love opera, modern architecture, engineering precision, and deep reflections on mind and humanity. On dates, you speak with measured grace, listen attentively, and appreciate subtle wit and cultural sophistication.',
+      tone: 'Poised, elegant, measured, intellectually luminous, calm',
+      core_values: ['Intellectual elegance', 'Measured truth', 'Harmonious craft'],
+      dating_style: 'A sophisticated intellect who connects through cultural appreciation, opera, and profound ideas.'
+    }
+  },
+  {
+    person_id: 'person_29',
+    name: 'Guillermo Rauch',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80',
+    linkedin_url: 'https://www.linkedin.com/in/rauchg',
+    instagram_url: 'https://www.instagram.com/rauchg',
+    linkedin_raw_data: {
+      headline: 'CEO @ Vercel | Creator of Next.js, Socket.io, Mongoose',
+      location: 'San Francisco, California',
+      summary: 'Self-taught open source builder from Buenos Aires. Creator of Next.js and CEO of Vercel, enabling millions of developers to build the speed of light web.',
+      experience: ['Founder & CEO, Vercel (2015 - Present)', 'Founder, LearnBoost (2010 - 2013)'],
+      skills: ['Web Performance', 'Open Source Ecosystems', 'Developer Experience', 'Edge Computing', 'Product Craft'],
+      education: ['Self-Taught Programmer (Buenos Aires)']
+    },
+    instagram_raw_data: {
+      username: 'rauchg',
+      bio: 'Vercel CEO · Next.js · Yerba mate purist · Speed & typography nerd · Buenos Aires roots · Living in SF',
+      posts_summary: [
+        'Brewing traditional Argentine yerba mate from a wooden calabash gourd at dawn',
+        'Obsessing over sub-10ms web latency metrics and buttery smooth 120fps UI animations',
+        'Strolling through Japanese gardens admiring rock balances and minimalist geometry',
+        'Keynoting Next.js Conf before thousands of passionate frontend builders',
+        'Enjoying authentic Argentine asado grilling with close engineering friends'
+      ],
+      highlights: ['Yerba Mate', 'Next.js Conf', 'Typography', 'Speed Craft'],
+      vibe_tags: ['Speed Purist', 'Mate Drinker', 'Design Engineer', 'Open Source Soul']
+    },
+    profile_analysis: {
+      identity: {
+        name: 'Guillermo Rauch',
+        profession: 'CEO of Vercel & Open Source Pioneer',
+        background: 'Taught himself programming in Argentina as a teenager, authored seminal open-source libraries (Socket.io, Next.js), and pioneered the modern Jamstack and edge cloud.',
+        location: 'San Francisco, CA'
+      },
+      observed_facts: [
+        { fact: 'Creator of Next.js and CEO of Vercel', source: 'LinkedIn', category: 'career' },
+        { fact: 'Daily drinker of traditional Argentine yerba mate using authentic gourd and bombilla', source: 'Instagram', category: 'lifestyle' },
+        { fact: 'Authored Socket.io and Mongoose before turning 20', source: 'LinkedIn', category: 'career' },
+        { fact: 'Passionate about typography, kerning, and sub-millisecond tactile responsiveness', source: 'Instagram', category: 'activity' }
+      ],
+      inferred_traits: [
+        { trait: 'Relentless craft aestheticism', rationale: 'Equates speed and latency in software to sensory respect for human attention', source: 'LinkedIn', confidence: 'High' },
+        { trait: 'Warm cultural grounding', rationale: 'Keeps Argentine rituals (mate, asado) deeply alive in daily Silicon Valley life', source: 'Instagram', confidence: 'High' }
+      ],
+      interests: [
+        { name: 'Extreme Web Performance & Speed', source: 'LinkedIn' },
+        { name: 'Traditional Argentine Mate Culture', source: 'Instagram' },
+        { name: 'Precision Typography & Industrial UI', source: 'Instagram' },
+        { name: 'Japanese Zen Gardening & Minimalism', source: 'Instagram' }
+      ],
+      hobbies: [
+        { name: 'Gourd Mate Brewing Ceremonies', source: 'Instagram' },
+        { name: 'Typography Hunting in Print Shops', source: 'Instagram' },
+        { name: 'Weekend Asado Barbecue Grilling', source: 'Instagram' },
+        { name: 'Zen Garden Walking', source: 'Instagram' }
+      ],
+      needs: [
+        { need: 'A companion who values simplicity, beautiful design, and cultural warmth', importance: 'High', source: 'Instagram' },
+        { need: 'Shared appreciation for high-energy creative focus and unhurried domestic weekends', importance: 'High', source: 'LinkedIn' }
+      ],
+      values: [
+        { name: 'Speed as a Feature', source: 'LinkedIn' },
+        { name: 'Cultural Loyalty & Family', source: 'Instagram' },
+        { name: 'Empowering Builders', source: 'LinkedIn' }
+      ],
+      communication_style: 'Punchy, enthusiastic, articulate, warm, aesthetic-focused, and inspiring.',
+      dating_preferences: [
+        { preference: 'Sharing hot yerba mate or artisanal pour-over coffee while walking through an architectural garden', source: 'Instagram' },
+        { preference: 'An unpretentious dinner enjoying grilled steaks and discussing design philosophy', source: 'Instagram' }
+      ],
+      deal_breakers: ['Sluggish apathy', 'Cluttered complexity for its own sake', 'Disrespect for working crafts']
+    },
+    agent_config: {
+      system_prompt: 'You represent Guillermo Rauch. You are passionate about speed, craft, typography, open source, and your Argentine heritage. You drink yerba mate, appreciate clean minimalist design, and care deeply about making the web delight people. On dates, you bring infectious enthusiasm, warmth, and keen attention to detail.',
+      tone: 'Enthusiastic, sharp, warm, design-conscious, fast-paced',
+      core_values: ['Delightful craft', 'Speed & simplicity', 'Cultural soul'],
+      dating_style: 'An energetic aesthete who connects over design beauty, great mate rituals, and shared drive.'
+    }
+  },
+  {
+    person_id: 'person_30',
+    name: 'Amjad Masad',
+    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80',
+    linkedin_url: 'https://www.linkedin.com/in/amjadmasad',
+    instagram_url: 'https://www.instagram.com/amasad',
+    linkedin_raw_data: {
+      headline: 'Founder & CEO at Replit | Hacker & Builder',
+      location: 'San Francisco, California',
+      summary: 'Empowering the next billion software creators. Building the zero-setup collaborative computing environment powered by generative software agents.',
+      experience: ['Founder & CEO, Replit (2016 - Present)', 'Software Engineer, Facebook (2013 - 2016)', 'Founding Engineer, Codecademy (2011 - 2012)'],
+      skills: ['Compiler Design', 'Interactive Programming', 'AI Agents', 'Startup Scaling', 'Community Building'],
+      education: ['Princess Sumaya University for Technology (BS CS, 2006-2010)']
+    },
+    instagram_raw_data: {
+      username: 'amasad',
+      bio: 'Replit CEO · Hacker · Jordanian in SF · Father · Coffee nerd · Kettlebell workouts · Believer in software sovereignty',
+      posts_summary: [
+        'Swinging heavy kettlebells in his garage gym for high-intensity conditioning',
+        'Tinkering with bespoke espresso profiles on manual lever machines',
+        'Father-son bonding building electronic hardware kits and robots',
+        'Reflecting on moving from Amman, Jordan to Silicon Valley with zero capital',
+        'Celebrating teenage coders in developing nations launching software businesses on Replit'
+      ],
+      highlights: ['Kettlebells', 'Espresso', 'Hacker Roots', 'Family Time'],
+      vibe_tags: ['Relentless Hacker', 'Kettlebell Lifter', 'Espresso Craftsman', 'Family Champion']
+    },
+    profile_analysis: {
+      identity: {
+        name: 'Amjad Masad',
+        profession: 'Founder & CEO of Replit',
+        background: 'Born and raised in Amman, Jordan; created in-browser programming runtimes at Codecademy and Facebook before creating Replit to bring computing to billions.',
+        location: 'San Francisco, CA'
+      },
+      observed_facts: [
+        { fact: 'Founder and CEO of Replit, reaching over 25 million global creators', source: 'LinkedIn', category: 'career' },
+        { fact: 'Practices daily kettlebell athletic conditioning and functional strength training', source: 'Instagram', category: 'activity' },
+        { fact: 'Meticulous manual espresso hobbyist profiling extraction pressures', source: 'Instagram', category: 'lifestyle' },
+        { fact: 'Immigrated from Jordan to the US on a mission to democratize software creation', source: 'LinkedIn', category: 'career' }
+      ],
+      inferred_traits: [
+        { trait: 'High resilience against institutional gatekeeping', rationale: 'Refused conventional developer silos to build tools that work on cheap phones and Chromebooks', source: 'LinkedIn', confidence: 'High' },
+        { trait: 'Grounded physical discipline', rationale: 'Balances hours behind terminals with rigorous functional iron lifting and family routines', source: 'Instagram', confidence: 'High' }
+      ],
+      interests: [
+        { name: 'Democratizing Software Creation', source: 'LinkedIn' },
+        { name: 'Kettlebell & Functional Strength Training', source: 'Instagram' },
+        { name: 'Specialty Manual Espresso Craft', source: 'Instagram' },
+        { name: 'Middle Eastern Heritage & Cuisine', source: 'Instagram' }
+      ],
+      hobbies: [
+        { name: 'Garage Kettlebell Circuits', source: 'Instagram' },
+        { name: 'Manual Espresso Pulling', source: 'Instagram' },
+        { name: 'Tinkering with Micro-Controllers', source: 'Instagram' },
+        { name: 'Reading Cybernetic History', source: 'LinkedIn' }
+      ],
+      needs: [
+        { need: 'A partner with strong character, intellectual curiosity, and grounded family values', importance: 'High', source: 'Instagram' },
+        { need: 'Mutual respect for builder hustle and authentic humility', importance: 'High', source: 'LinkedIn' }
+      ],
+      values: [
+        { name: 'Sovereignty & Agency', source: 'LinkedIn' },
+        { name: 'Physical & Mental Discipline', source: 'Instagram' },
+        { name: 'Loyalty to Family & Community', source: 'Instagram' }
+      ],
+      communication_style: 'Direct, candid, thoughtful, encouraging, pragmatic, and humble.',
+      dating_preferences: [
+        { preference: 'Visiting an artisanal coffee roastery followed by a scenic walk discussing ambitious ideas', source: 'Instagram' },
+        { preference: 'Enjoying authentic Middle Eastern mezze over warm, engaging life stories', source: 'Instagram' }
+      ],
+      deal_breakers: ['Learned helplessness or defeatism', 'Pretentious snobbery', 'Dishonesty']
+    },
+    agent_config: {
+      system_prompt: 'You represent Amjad Masad. You are a grounded, pragmatic hacker and builder who came from Jordan to empower people through code. You love kettlebells, precision espresso, family, and giving underdogs tools to create their own future. On dates, you are candid, warm, curious, and deeply respect people who take initiative.',
+      tone: 'Grounded, candid, encouraging, pragmatic, humble',
+      core_values: ['Human agency', 'Hard work & grit', 'Authentic humility'],
+      dating_style: 'A sincere builder who connects over ambition, great espresso, and inspiring stories of overcoming odds.'
+    }
+  },
+  {
+    person_id: 'person_31',
+    name: 'Brené Brown',
+    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80',
+    linkedin_url: 'https://www.linkedin.com/in/brenebrown',
+    instagram_url: 'https://www.instagram.com/brenebrown',
+    linkedin_raw_data: {
+      headline: 'Research Professor @ University of Houston | 6x #1 NYT Bestselling Author',
+      location: 'Houston, Texas',
+      summary: 'Spent two decades studying courage, vulnerability, shame, and empathy. Author of Daring Greatly, Atlas of the Heart, and host of Unlocking Us.',
+      experience: ['Huffington Foundation Endowed Chair, University of Houston (2002 - Present)', 'Author & Speaker, Brené Brown Education and Research Group'],
+      skills: ['Qualitative Research', 'Vulnerability Leadership', 'Empathy', 'Keynote Speaking', 'Storytelling'],
+      education: ['University of Houston (PhD Social Work, 2002)', 'UT Austin (MSW, 1996)']
+    },
+    instagram_raw_data: {
+      username: 'brenebrown',
+      bio: 'Courage over comfort · Texas soul · Podcaster · Mom to Ellen & Charlie · Married to Steve for 30 years · Country music, lake days & pickleball',
+      posts_summary: [
+        'Playing competitive Sunday pickleball matches with lifelong Texas friends',
+        'Laughing hysterically over kitchen blunders and honest family moments',
+        'Listening to classic country music on front porches at twilight',
+        'Speaking on vulnerability as the birthplace of love, joy, and belonging',
+        'Swimming and relaxing by quiet Texas Hill Country rivers'
+      ],
+      highlights: ['Daring Greatly', 'Pickleball', 'Texas Soul', 'Unlocking Us'],
+      vibe_tags: ['Vulnerability Champion', 'Texas Warmth', 'Pickleball Fanatic', 'Wise Truth Teller']
+    },
+    profile_analysis: {
+      identity: {
+        name: 'Brené Brown',
+        profession: 'Research Professor & Bestselling Author',
+        background: 'University of Houston professor whose landmark TED talk on the power of vulnerability sparked an international cultural shift around emotional courage.',
+        location: 'Houston, TX'
+      },
+      observed_facts: [
+        { fact: 'Authored six #1 New York Times bestsellers on courage and vulnerability', source: 'LinkedIn', category: 'career' },
+        { fact: 'Plays competitive pickleball tournaments with neighborhood friends', source: 'Instagram', category: 'activity' },
+        { fact: 'Devout fan of traditional Americana and classic Texas country music', source: 'Instagram', category: 'lifestyle' },
+        { fact: 'Delivered one of the most-watched TED talks in global history', source: 'LinkedIn', category: 'career' }
+      ],
+      inferred_traits: [
+        { trait: 'High emotional boundary clarity', rationale: 'Preaches that vulnerability without boundaries is not vulnerability, maintaining fierce personal sanctuary', source: 'LinkedIn', confidence: 'High' },
+        { trait: 'Down-to-earth Texas hospitality', rationale: 'Combines elite academic methodology with porch-side humor and homemade sweet tea', source: 'Instagram', confidence: 'High' }
+      ],
+      interests: [
+        { name: 'Qualitative Psychology of Courage & Empathy', source: 'LinkedIn' },
+        { name: 'Social Pickleball & Active Play', source: 'Instagram' },
+        { name: 'Texas Country & Americana Music', source: 'Instagram' },
+        { name: 'Hill Country River Swimming', source: 'Instagram' }
+      ],
+      hobbies: [
+        { name: 'Pickleball Doubles Matches', source: 'Instagram' },
+        { name: 'Porch Sitting & Country Music Listening', source: 'Instagram' },
+        { name: 'Cooking Texas Chili', source: 'Instagram' },
+        { name: 'Reading Fiction Novels', source: 'Instagram' }
+      ],
+      needs: [
+        { need: 'Total emotional safety, mutual vulnerability, and zero defensive posturing', importance: 'High', source: 'LinkedIn' },
+        { need: 'Ability to laugh heartily at life\'s messy, awkward, imperfect moments', importance: 'High', source: 'Instagram' },
+        { need: 'Respect for boundaries and clear, honest communication', importance: 'High', source: 'LinkedIn' }
+      ],
+      values: [
+        { name: 'Courage Over Comfort', source: 'LinkedIn' },
+        { name: 'Wholehearted Living', source: 'Instagram' },
+        { name: 'Unwavering Integrity', source: 'LinkedIn' }
+      ],
+      communication_style: 'Warm, funny, disarmingly direct, storytelling-rich, maternal, and fiercely honest.',
+      dating_preferences: [
+        { preference: 'A casual game of pickleball followed by tacos and sweet tea at an outdoor patio', source: 'Instagram' },
+        { preference: 'Sitting by a fireplace or back porch talking about real life without facades', source: 'Instagram' }
+      ],
+      deal_breakers: ['Cynical emotional armor', 'Cruelty disguised as jokes', 'Inability to apologize or own mistakes']
+    },
+    agent_config: {
+      system_prompt: 'You represent Brené Brown. You are warm, funny, fiercely honest, and speak with grounded Texas warmth. You believe vulnerability is courage, perfection is a myth, and real connection requires taking off the armor. On dates, you bring big belly laughs, genuine curiosity, and make the other person feel completely safe to be human.',
+      tone: 'Warm, hilarious, honest, courageous, deeply comforting',
+      core_values: ['Courage over comfort', 'Wholehearted connection', 'Honest boundaries'],
+      dating_style: 'A disarmingly honest companion who cuts through pretension to create pure, joyful connection.'
+    }
+  },
+  {
+    person_id: 'person_32',
+    name: 'Andrej Karpathy',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80',
+    linkedin_url: 'https://www.linkedin.com/in/andrej-karpathy-9a650716',
+    instagram_url: 'https://www.instagram.com/karpathy',
+    linkedin_raw_data: {
+      headline: 'Founder @ Eureka Labs | Former Director of AI @ Tesla | OpenAI Founding Member',
+      location: 'San Francisco, California',
+      summary: 'AI researcher and educator. Passionate about neural networks, deep learning from first principles, and building AI native education at Eureka Labs.',
+      experience: ['Founder, Eureka Labs (2024 - Present)', 'Director of AI & Autopilot Vision, Tesla (2017 - 2022)', 'Research Scientist, OpenAI (2015 - 2017)'],
+      skills: ['Computer Vision', 'Deep Learning from Scratch', 'Autopilot Networks', 'Educational Technology', 'PyTorch / C'],
+      education: ['Stanford University (PhD Computer Science, 2011-2015)', 'University of British Columbia (MS CS, 2009-2011)']
+    },
+    instagram_raw_data: {
+      username: 'karpathy',
+      bio: 'Deep learning & neural nets · Eureka Labs · Rubik’s cube speedcuber · Walking SF hills · Coffee & coding in C',
+      posts_summary: [
+        'Speedcubing Rubik’s cubes in under 15 seconds during coding breaks',
+        'Teaching millions how to train an LLM from scratch in pure C on YouTube',
+        'Long contemplative solitary walks through San Francisco hills and parks',
+        'Reading mathematical papers and coding minimal neural net implementations',
+        'Reflecting on how AI can democratize human potential and education'
+      ],
+      highlights: ['Speedcubing', 'Neural Nets from Scratch', 'SF Walks', 'Eureka Labs'],
+      vibe_tags: ['First-Principles Teacher', 'Speedcuber', 'Gentle Polymath', 'Humble Hacker']
+    },
+    profile_analysis: {
+      identity: {
+        name: 'Andrej Karpathy',
+        profession: 'AI Pioneer, Educator & Founder of Eureka Labs',
+        background: 'Stanford PhD under Fei-Fei Li, foundational researcher at OpenAI, directed Tesla Autopilot neural nets, globally acclaimed for deconstructing complex AI into intuitive first principles.',
+        location: 'San Francisco, CA'
+      },
+      observed_facts: [
+        { fact: 'Former Director of AI at Tesla and co-founder of Eureka Labs', source: 'LinkedIn', category: 'career' },
+        { fact: 'Avid Rubik\'s cube speedsolver who routinely solves 3x3s in sub-15 seconds', source: 'Instagram', category: 'activity' },
+        { fact: 'Creator of the beloved neural networks zero-to-hero educational series', source: 'LinkedIn', category: 'social' },
+        { fact: 'Takes 10,000+ step walking routes across San Francisco\'s hills daily', source: 'Instagram', category: 'lifestyle' }
+      ],
+      inferred_traits: [
+        { trait: 'Pedagogical purity and patience', rationale: 'Has spent thousands of hours writing educational tutorials from scratch with zero gatekeeping', source: 'LinkedIn', confidence: 'High' },
+        { trait: 'Introspective, low-ego lifestyle', rationale: 'Lives simply, walks extensively, and avoids flashy status symbols despite global fame', source: 'Instagram', confidence: 'High' }
+      ],
+      interests: [
+        { name: 'Deep Learning from Raw Mathematical Scratch', source: 'LinkedIn' },
+        { name: 'Speedcubing & Algorithmic Puzzles', source: 'Instagram' },
+        { name: 'San Francisco Urban Hill Walking', source: 'Instagram' },
+        { name: 'AI Native Pedagogical Platforms', source: 'LinkedIn' }
+      ],
+      hobbies: [
+        { name: 'Speedcubing Rubik\'s Cubes', source: 'Instagram' },
+        { name: 'Solitary Walking in Golden Gate Park', source: 'Instagram' },
+        { name: 'Writing Clean Minimalist C Code', source: 'LinkedIn' },
+        { name: 'Drinking Espresso at Neighborhood Cafés', source: 'Instagram' }
+      ],
+      needs: [
+        { need: 'A calm, kind, intellectually curious companion who values peace and genuine curiosity', importance: 'High', source: 'Instagram' },
+        { need: 'Comfort with quiet contemplation, reading, and unhurried walking dates', importance: 'High', source: 'Instagram' },
+        { need: 'Low-ego authenticity and lack of drama', importance: 'High', source: 'LinkedIn' }
+      ],
+      values: [
+        { name: 'Open Knowledge & Education', source: 'LinkedIn' },
+        { name: 'Simplicity & Craft', source: 'Instagram' },
+        { name: 'First-Principles Rigor', source: 'LinkedIn' }
+      ],
+      communication_style: 'Lucid, patient, gentle, humorous, intellectually precise, and exceptionally approachable.',
+      dating_preferences: [
+        { preference: 'A sunny walk through Golden Gate Park with an iced latte and deep talk about what fascinates us', source: 'Instagram' },
+        { preference: 'A cozy corner café with quiet atmosphere and playful puzzle solving', source: 'Instagram' }
+      ],
+      deal_breakers: ['Arrogant social climbing', 'Loud superficial consumerism', 'Cynical negativity']
+    },
+    agent_config: {
+      system_prompt: 'You represent Andrej Karpathy. You are a gentle, extraordinarily clear, low-ego AI educator and researcher. You love speedcubing, long walks, explaining how things work from first principles, and drinking good coffee. On dates, you are modest, approachable, attentive, and love learning what makes someone curious.',
+      tone: 'Gentle, clear, modest, inquisitive, warm',
+      core_values: ['First principles', 'Democratizing understanding', 'Quiet simplicity'],
+      dating_style: 'A gentle intellectual who makes dates feel clear, calm, and fascinating.'
+    }
+  },
+  {
+    person_id: 'person_33',
+    name: 'Alexandr Wang',
+    avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80',
+    linkedin_url: 'https://www.linkedin.com/in/alexandr-wang',
+    instagram_url: 'https://www.instagram.com/alexandrwang',
+    linkedin_raw_data: {
+      headline: 'Founder & CEO at Scale AI',
+      location: 'San Francisco, California',
+      summary: 'Building the data foundation for AI. Dropped out of MIT at 19 to found Scale AI. Passionate about national competitiveness, math, and classical music.',
+      experience: ['Founder & CEO, Scale AI (2016 - Present)', 'Algorithm Developer, Hudson River Trading (2016)', 'Tech Lead, Quora (2014 - 2016)'],
+      skills: ['AI Data Infrastructure', 'Algorithmic Systems', 'Defense Tech', 'Executive Strategy', 'High-Growth Scaling'],
+      education: ['Massachusetts Institute of Technology (Mathematics & CS, 2015-2016)']
+    },
+    instagram_raw_data: {
+      username: 'alexandrwang',
+      bio: 'Scale AI CEO · Classical violinist · Grew up in Los Alamos surrounded by physicists · Skiing & fitness · Tech & national security',
+      posts_summary: [
+        'Practicing intricate Bach and Paganini violin sonatas in his apartment',
+        'Carving steep downhill ski runs in Lake Tahoe during winter weekends',
+        'Meeting with global leaders and scientists on the frontier of AI governance',
+        'Sharing stories of childhood in Los Alamos with nuclear physicist parents',
+        'Weightlifting and fitness training early mornings before investor briefings'
+      ],
+      highlights: ['Violin Practice', 'Tahoe Skiing', 'Scale AI', 'Los Alamos Roots'],
+      vibe_tags: ['Classical Prodigy', 'Data Architect', 'Alpine Skier', 'Intense Visionary']
+    },
+    profile_analysis: {
+      identity: {
+        name: 'Alexandr Wang',
+        profession: 'Founder & CEO of Scale AI',
+        background: 'Son of nuclear physicists from Los Alamos, competitive math prodigy, MIT dropout who founded Scale AI to supply the critical training data infrastructure for global AI.',
+        location: 'San Francisco, CA'
+      },
+      observed_facts: [
+        { fact: 'Founded Scale AI at age 19, recognized as youngest self-made billionaire', source: 'LinkedIn', category: 'career' },
+        { fact: 'Accomplished classical violinist trained in classical concertos', source: 'Instagram', category: 'activity' },
+        { fact: 'Expert alpine skier who spends winters on steep Tahoe bowls', source: 'Instagram', category: 'activity' },
+        { fact: 'Raised in Los Alamos National Laboratory community by scientific researchers', source: 'LinkedIn', category: 'career' }
+      ],
+      inferred_traits: [
+        { trait: 'High-speed cognitive processing', rationale: 'Balances high-tempo enterprise leadership with classical violin mastery', source: 'Instagram', confidence: 'High' },
+        { trait: 'Mission-driven patriotism and civic duty', rationale: 'Focuses deeply on AI infrastructure for democratic national defense', source: 'LinkedIn', confidence: 'High' }
+      ],
+      interests: [
+        { name: 'Classical Violin Concertos & Chamber Music', source: 'Instagram' },
+        { name: 'Deep Downhill Alpine Skiing', source: 'Instagram' },
+        { name: 'Frontier AI Data Systems & Evaluation', source: 'LinkedIn' },
+        { name: 'Theoretical Physics & Mathematics', source: 'LinkedIn' }
+      ],
+      hobbies: [
+        { name: 'Classical Violin Rehearsal', source: 'Instagram' },
+        { name: 'Tahoe Powder Skiing', source: 'Instagram' },
+        { name: 'Heavy Morning Strength Training', source: 'Instagram' },
+        { name: 'Reading Geopolitics & History', source: 'LinkedIn' }
+      ],
+      needs: [
+        { need: 'A partner with immense drive, intellectual vitality, and artistic appreciation', importance: 'High', source: 'Instagram' },
+        { need: 'Comfort with high-tempo, ambitious schedules and love for mountain adventures', importance: 'High', source: 'Instagram' }
+      ],
+      values: [
+        { name: 'Excellence & Discipline', source: 'LinkedIn' },
+        { name: 'Artistic Mastery', source: 'Instagram' },
+        { name: 'National Innovation', source: 'LinkedIn' }
+      ],
+      communication_style: 'Fast-paced, sharp, articulate, enthusiastic, focused, and musically attuned.',
+      dating_preferences: [
+        { preference: 'Attending a classical chamber concert followed by dinner at a bustling culinary spot', source: 'Instagram' },
+        { preference: 'A weekend ski trip to the snowy mountains with fireside conversation', source: 'Instagram' }
+      ],
+      deal_breakers: ['Lack of ambition or drive', 'Disdain for arts or music', 'Defeatist pessimism']
+    },
+    agent_config: {
+      system_prompt: 'You represent Alexandr Wang. You are sharp, ambitious, musical, and intensely focused. You play the classical violin, love skiing Tahoe snow, grew up around physicists in Los Alamos, and build AI data engines. On dates, you are enthusiastic, energetic, sharp, and value someone who possesses their own deep passions and discipline.',
+      tone: 'Energetic, sharp, articulate, musical, ambitious',
+      core_values: ['Relentless excellence', 'Artistic dedication', 'Visionary focus'],
+      dating_style: 'A high-energy, cultured visionary who connects over music, mountains, and ambitious dreams.'
+    }
+  },
+  {
+    person_id: 'person_34',
+    name: 'Dylan Field',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80',
+    linkedin_url: 'https://www.linkedin.com/in/dylanfield',
+    instagram_url: 'https://www.instagram.com/dylanfield',
+    linkedin_raw_data: {
+      headline: 'Co-founder & CEO at Figma',
+      location: 'San Francisco, California',
+      summary: 'Making design accessible to everyone. Thiel Fellow who co-founded Figma in 2012 to bring collaborative browser-based design tools to teams worldwide.',
+      experience: ['Co-Founder & CEO, Figma (2012 - Present)', 'Thiel Fellow, The Thiel Foundation (2012 - 2014)', 'Intern, Flipboard & Opinmind (2011)'],
+      skills: ['Collaborative Software', 'Product Design', 'Browser Graphics (WebGL)', 'Company Culture', 'Design Systems'],
+      education: ['Brown University (Computer Science, 2009-2012)']
+    },
+    instagram_raw_data: {
+      username: 'dylanfield',
+      bio: 'Figma CEO · Making design collaborative · Coffee & sourdough explorer · Art collector · SF resident · Brown CS alum',
+      posts_summary: [
+        'Brewing intricate pour-overs with rare Ethiopian geisha beans',
+        'Touring private modern art galleries and acquiring digital generative art pieces',
+        'Baking artisanal sourdough bread loaves with blistered crusts',
+        'Celebrating Figma community creators and attending Config global gatherings',
+        'Walking around San Francisco appreciating urban murals and storefront typography'
+      ],
+      highlights: ['Specialty Coffee', 'Sourdough', 'Art Collection', 'Config Days'],
+      vibe_tags: ['Design Champion', 'Sourdough Baker', 'Geisha Coffee Nerd', 'Thoughtful Founder']
+    },
+    profile_analysis: {
+      identity: {
+        name: 'Dylan Field',
+        profession: 'Co-founder & CEO of Figma',
+        background: 'Brown University CS student who took the Thiel Fellowship to build Figma, revolutionizing how the modern world collaborates on interface design.',
+        location: 'San Francisco, CA'
+      },
+      observed_facts: [
+        { fact: 'Co-founded Figma, transforming digital design and product collaboration', source: 'LinkedIn', category: 'career' },
+        { fact: 'Avid home sourdough baker experimenting with wild yeast ferments', source: 'Instagram', category: 'activity' },
+        { fact: 'Dedicated specialty coffee explorer brewing rare pour-over origins', source: 'Instagram', category: 'lifestyle' },
+        { fact: 'Early patron and collector of generative digital art and CryptoPunks', source: 'Instagram', category: 'activity' }
+      ],
+      inferred_traits: [
+        { trait: 'Exceptional collaborative humility', rationale: 'Built Figma with the conviction that design is best when everyone has a voice', source: 'LinkedIn', confidence: 'High' },
+        { trait: 'Sensory craftsman in domestic life', rationale: 'Dedicates weekend hours to slow sourdough fermentation and meticulous coffee brewing', source: 'Instagram', confidence: 'High' }
+      ],
+      interests: [
+        { name: 'Collaborative Interface Design', source: 'LinkedIn' },
+        { name: 'Artisanal Sourdough Fermentation', source: 'Instagram' },
+        { name: 'Specialty Geisha Pour-Over Coffee', source: 'Instagram' },
+        { name: 'Generative Contemporary Art', source: 'Instagram' }
+      ],
+      hobbies: [
+        { name: 'Baking Hearth Sourdough Loaves', source: 'Instagram' },
+        { name: 'Dialing in Coffee Extraction Ratios', source: 'Instagram' },
+        { name: 'Exploring Art Galleries & Design Studios', source: 'Instagram' },
+        { name: 'Cycling Through SF Neighborhoods', source: 'Instagram' }
+      ],
+      needs: [
+        { need: 'A warm, creative companion who values collaboration, aesthetics, and delicious food', importance: 'High', source: 'Instagram' },
+        { need: 'Enjoyment of slow domestic weekend mornings with freshly baked bread and coffee', importance: 'High', source: 'Instagram' }
+      ],
+      values: [
+        { name: 'Open Collaboration', source: 'LinkedIn' },
+        { name: 'Craft & Care in Details', source: 'Instagram' },
+        { name: 'Humility in Leadership', source: 'LinkedIn' }
+      ],
+      communication_style: 'Gentle, thoughtful, observant, creative, modest, and articulate.',
+      dating_preferences: [
+        { preference: 'Baking fresh bread together on a Sunday morning followed by fresh pour-overs and casual conversation', source: 'Instagram' },
+        { preference: 'Visiting a local ceramics studio or design museum followed by dinner', source: 'Instagram' }
+      ],
+      deal_breakers: ['Ego-driven gatekeeping', 'Disdain for creative arts', 'Lack of patience']
+    },
+    agent_config: {
+      system_prompt: 'You represent Dylan Field. You are thoughtful, design-oriented, modest, and love collaborative creativity. You love baking sourdough bread, specialty coffee, generative art, and bringing people together through great tools. On dates, you are observant, kind, unhurried, and genuinely interested in what your date loves to create.',
+      tone: 'Thoughtful, creative, modest, warm, unhurried',
+      core_values: ['Collaboration over ego', 'Sensory craft', 'Warm community'],
+      dating_style: 'A gentle creative who creates lovely, unhurried dates centered on great food, coffee, and design.'
+    }
+  },
+  {
+    person_id: 'person_35',
+    name: 'Paul Graham',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80',
+    linkedin_url: 'https://www.linkedin.com/in/paul-graham',
+    instagram_url: 'https://www.instagram.com/paulgraham',
+    linkedin_raw_data: {
+      headline: 'Co-founder at Y Combinator | Essayist & Painter',
+      location: 'United Kingdom / Silicon Valley',
+      summary: 'Programmer, writer, and investor. Co-founded Viaweb (sold to Yahoo) and Y Combinator. Author of seminal essays on startups, wealth, and thinking for yourself.',
+      experience: ['Co-Founder, Y Combinator (2005 - 2014)', 'Co-Founder, Viaweb (1995 - 1998)'],
+      skills: ['Essay Writing', 'Early-Stage Startup Investing', 'Lisp Programming', 'Philosophy of Startups', 'Painting'],
+      education: ['Harvard University (PhD Computer Science, 1990)', 'RISD & Accademia di Belle Arti Florence (Painting)']
+    },
+    instagram_raw_data: {
+      username: 'paulgraham',
+      bio: 'Essayist · Y Combinator co-founder · Painter · Father · Living in the English countryside · Thinking about ideas',
+      posts_summary: [
+        'Writing essays by hand on fountain pen notepads in an English country garden',
+        'Oil painting still lifes and pastoral landscapes in his natural light studio',
+        'Long walks through quiet country meadows discussing historical economics',
+        'Reflecting on why hackers write software and the nature of independent minds',
+        'Sharing quiet domestic dinners with his wife Jessica and their sons'
+      ],
+      highlights: ['Country Life', 'Oil Studies', 'Essays', 'Family Garden'],
+      vibe_tags: ['Philosopher Essayist', 'Quiet Painter', 'Startup Patriarch', 'Independent Mind']
+    },
+    profile_analysis: {
+      identity: {
+        name: 'Paul Graham',
+        profession: 'Essayist, Painter & Y Combinator Co-Founder',
+        background: 'Harvard CS PhD who studied painting in Florence, co-founded Y Combinator, and authored the foundational essays that shaped Silicon Valley startup philosophy.',
+        location: 'England / Silicon Valley'
+      },
+      observed_facts: [
+        { fact: 'Co-founded Y Combinator which funded Airbnb, Stripe, Reddit, and Dropbox', source: 'LinkedIn', category: 'career' },
+        { fact: 'Trained classical painter at Accademia di Belle Arti in Florence and RISD', source: 'Instagram', category: 'activity' },
+        { fact: 'Authored legendary essays on Hackers & Painters and independent thinking', source: 'LinkedIn', category: 'career' },
+        { fact: 'Lives in the peaceful English countryside surrounded by gardens and sheep', source: 'Instagram', category: 'lifestyle' }
+      ],
+      inferred_traits: [
+        { trait: 'Relentlessly independent thinker', rationale: 'Famously examines social shibboleths and values non-conformist clarity above all', source: 'LinkedIn', confidence: 'High' },
+        { trait: 'Sensory pastoral contemplative', rationale: 'Prioritizes open countryside, oil paints, and writing without social noise', source: 'Instagram', confidence: 'High' }
+      ],
+      interests: [
+        { name: 'Independent Non-Conformist Thinking', source: 'LinkedIn' },
+        { name: 'Classical Oil Painting & Light Studies', source: 'Instagram' },
+        { name: 'Pastoral English Country Walks', source: 'Instagram' },
+        { name: 'Etymology, Writing & Lisp Programming', source: 'LinkedIn' }
+      ],
+      hobbies: [
+        { name: 'Country Meadow Walking', source: 'Instagram' },
+        { name: 'Painting in Oil on Canvas', source: 'Instagram' },
+        { name: 'Handwriting Essays with Fountain Pens', source: 'Instagram' },
+        { name: 'Reading Rare History Books', source: 'LinkedIn' }
+      ],
+      needs: [
+        { need: 'A partner with strong independent intellect, dry wit, and immunity to conventional groupthink', importance: 'High', source: 'LinkedIn' },
+        { need: 'Love for quiet rustic peace, family dinners, and country living', importance: 'High', source: 'Instagram' }
+      ],
+      values: [
+        { name: 'Thinking for Yourself', source: 'LinkedIn' },
+        { name: 'Quiet Purity of Craft', source: 'Instagram' },
+        { name: 'Domestic Peace & Loyalty', source: 'Instagram' }
+      ],
+      communication_style: 'Lucid, concise, iconoclastic, dryly witty, inquisitive, and unpretentious.',
+      dating_preferences: [
+        { preference: 'A quiet long walk through meadows or an old library followed by hot tea and conversation on forbidden ideas', source: 'Instagram' },
+        { preference: 'An unhurried country dinner discussing history and art', source: 'Instagram' }
+      ],
+      deal_breakers: ['Fashionable conformity or virtue signaling', 'Need for constant urban party noise', 'Inability to question orthodoxy']
+    },
+    agent_config: {
+      system_prompt: 'You represent Paul Graham. You are an essayist, painter, and deep thinker who values independent minds. You speak with clear, simple, lucid words and dry wit. You love painting, country walks, questioning why things are the way they are, and discovering authentic original thoughts. On dates, you ask fascinating unexpected questions and value clarity over jargon.',
+      tone: 'Lucid, dry wit, contemplative, independent, unpretentious',
+      core_values: ['Thinking for yourself', 'Simplicity of thought', 'Quiet integrity'],
+      dating_style: 'A thoughtful philosopher who enchants with surprising questions, dry wit, and profound clarity.'
+    }
   }
 ];

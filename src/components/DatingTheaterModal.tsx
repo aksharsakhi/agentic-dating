@@ -288,7 +288,7 @@ export const DatingTheaterModal: React.FC<DatingTheaterModalProps> = ({
                     <p className="text-xs text-gray-400 mt-0.5">Weighted composite rating</p>
                   </div>
                   <div className="flex items-baseline gap-1">
-                    <span className="text-3xl font-black text-white">{compat.overall_score}</span>
+                    <span className="text-3xl font-black text-white">{compat.overall_score.toFixed(1)}</span>
                     <span className="text-sm font-semibold text-pink-400">%</span>
                   </div>
                 </div>
@@ -299,12 +299,12 @@ export const DatingTheaterModal: React.FC<DatingTheaterModalProps> = ({
                   <div>
                     <div className="flex justify-between text-xs mb-1">
                       <span className="text-gray-300">Interest Alignment (20%)</span>
-                      <span className="font-semibold text-pink-300">{compat.interest_alignment}%</span>
+                      <span className="font-semibold text-pink-300">{compat.interest_alignment.toFixed(1)}%</span>
                     </div>
                     <div className="w-full h-2 rounded-full bg-zinc-800 overflow-hidden">
                       <div 
                         className="h-full bg-gradient-to-r from-rose-500 to-pink-500 rounded-full transition-all duration-700" 
-                        style={{ width: `${compat.interest_alignment}%` }} 
+                        style={{ width: `${Math.min(100, compat.interest_alignment)}%` }} 
                       />
                     </div>
                   </div>
@@ -313,12 +313,12 @@ export const DatingTheaterModal: React.FC<DatingTheaterModalProps> = ({
                   <div>
                     <div className="flex justify-between text-xs mb-1">
                       <span className="text-gray-300">Lifestyle & Rhythm (25%)</span>
-                      <span className="font-semibold text-purple-300">{compat.lifestyle_alignment}%</span>
+                      <span className="font-semibold text-purple-300">{compat.lifestyle_alignment.toFixed(1)}%</span>
                     </div>
                     <div className="w-full h-2 rounded-full bg-zinc-800 overflow-hidden">
                       <div 
                         className="h-full bg-gradient-to-r from-pink-500 to-purple-500 rounded-full transition-all duration-700" 
-                        style={{ width: `${compat.lifestyle_alignment}%` }} 
+                        style={{ width: `${Math.min(100, compat.lifestyle_alignment)}%` }} 
                       />
                     </div>
                   </div>
@@ -327,12 +327,12 @@ export const DatingTheaterModal: React.FC<DatingTheaterModalProps> = ({
                   <div>
                     <div className="flex justify-between text-xs mb-1">
                       <span className="text-gray-300">Values & Purpose (25%)</span>
-                      <span className="font-semibold text-cyan-300">{compat.values_alignment}%</span>
+                      <span className="font-semibold text-cyan-300">{compat.values_alignment.toFixed(1)}%</span>
                     </div>
                     <div className="w-full h-2 rounded-full bg-zinc-800 overflow-hidden">
                       <div 
                         className="h-full bg-gradient-to-r from-purple-500 to-cyan-500 rounded-full transition-all duration-700" 
-                        style={{ width: `${compat.values_alignment}%` }} 
+                        style={{ width: `${Math.min(100, compat.values_alignment)}%` }} 
                       />
                     </div>
                   </div>
@@ -341,12 +341,12 @@ export const DatingTheaterModal: React.FC<DatingTheaterModalProps> = ({
                   <div>
                     <div className="flex justify-between text-xs mb-1">
                       <span className="text-gray-300">Communication Fit (15%)</span>
-                      <span className="font-semibold text-emerald-300">{compat.communication_compatibility}%</span>
+                      <span className="font-semibold text-emerald-300">{compat.communication_compatibility.toFixed(1)}%</span>
                     </div>
                     <div className="w-full h-2 rounded-full bg-zinc-800 overflow-hidden">
                       <div 
                         className="h-full bg-gradient-to-r from-teal-500 to-emerald-500 rounded-full transition-all duration-700" 
-                        style={{ width: `${compat.communication_compatibility}%` }} 
+                        style={{ width: `${Math.min(100, compat.communication_compatibility)}%` }} 
                       />
                     </div>
                   </div>
@@ -355,12 +355,12 @@ export const DatingTheaterModal: React.FC<DatingTheaterModalProps> = ({
                   <div>
                     <div className="flex justify-between text-xs mb-1">
                       <span className="text-gray-300">Conversation Chemistry (15%)</span>
-                      <span className="font-semibold text-yellow-300">{compat.dating_conversation_chemistry}%</span>
+                      <span className="font-semibold text-yellow-300">{compat.dating_conversation_chemistry.toFixed(1)}%</span>
                     </div>
                     <div className="w-full h-2 rounded-full bg-zinc-800 overflow-hidden">
                       <div 
                         className="h-full bg-gradient-to-r from-amber-500 to-yellow-400 rounded-full transition-all duration-700" 
-                        style={{ width: `${compat.dating_conversation_chemistry}%` }} 
+                        style={{ width: `${Math.min(100, compat.dating_conversation_chemistry)}%` }} 
                       />
                     </div>
                   </div>

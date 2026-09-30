@@ -57,7 +57,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             onClick={onExploreProfiles}
             className="flex items-center gap-2 px-5 py-3.5 rounded-xl font-semibold text-sm bg-white/10 hover:bg-white/15 text-white border border-white/10 backdrop-blur-md active:scale-95 transition-all"
           >
-            <span>Explore 25 Real Profiles</span>
+            <span>Explore 35 Real Profiles</span>
             <ArrowRight className="w-4 h-4 text-gray-300" />
           </button>
 

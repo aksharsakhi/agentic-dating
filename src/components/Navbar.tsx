@@ -53,9 +53,9 @@ export const Navbar: React.FC<NavbarProps> = ({
             }`}
           >
             <Users className="w-4 h-4 text-pink-400" />
-            <span>25 People</span>
-            <span className="ml-1 text-[11px] px-1.5 py-0.2 rounded-full bg-pink-500/20 text-pink-300">
-              {peopleCount}
+            <span>{peopleCount} Profiles</span>
+            <span className="ml-1 text-[11px] px-1.5 py-0.2 rounded-full bg-pink-500/20 text-pink-300 font-semibold">
+              Live
             </span>
           </button>
 

@@ -113,6 +113,7 @@ export interface MatchRankingItem {
   session_id: string;
   chemistry_verdict: string;
   top_shared_values: string[];
+  match_rationale?: string;
 }
 
 export interface PersonRanking {
